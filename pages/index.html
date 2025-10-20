@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio em Ciência de Dados - Paulo Gurgel</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body class="antialiased">
+  <!-- Container principal -->
+  <div class="max-w-6xl mx-auto p-6 md:p-10">
+    <!-- Cabeçalho -->
+    <section class="flex flex-col md:flex-row md:items-center md:justify-between bg-white rounded-2xl shadow-md p-8 border-t-4 border-blue-400">
+      <div class="md:w-2/3 space-y-4">
+        <h1 class="text-4xl font-bold text-gray-800 leading-tight">
+          Bem-vindo ao meu portfólio de projetos em <span class="text-blue-600">Ciência de Dados</span>.
+        </h1>
+
+        <p class="text-gray-600 text-lg">
+          Nesta página, demonstro minhas habilidades em resolver problemas de negócio utilizando conceitos e ferramentas da Ciência de Dados,
+          através de projetos com dados públicos e aplicados.
+        </p>
+
+        <div>
+          <h2 class="font-bold text-gray-700 text-lg mb-1">Sobre mim</h2>
+          <p class="text-gray-600">
+            Sou apaixonado por dados, tecnologia, estatística e inteligência artificial aplicada à resolução de problemas reais.
+            Busco continuamente aprimorar minhas competências em modelagem preditiva, automação, visualização de dados e engenharia de dados.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-6 md:mt-0 md:w-1/3 flex justify-center">
+        <img src="/images/perfil_paulo.jpg" alt="Foto de Perfil"
+             class="w-72 h-72 object-cover rounded-2xl shadow-xl border-4 border-blue-200">
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="mt-12">
+      <h2 class="text-2xl font-bold text-gray-800 border-b-2 border-blue-300 pb-2 mb-8">
+        Habilidades
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Linguagens e Banco de Dados</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Python (Pandas, NumPy, Scikit-learn, Matplotlib)</li>
+            <li>SQL Server, PostgreSQL, Oracle SQL Developer</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Estatística</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Testes de hipótese, ANOVA</li>
+            <li>Regressão linear e logística</li>
+            <li>Modelo Supervisionado e Não Supervisionado</li>
+            <li>Regressão linear e logística</li>
+            <li>Correlação e probabilidade</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Machine Learning</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Regressão, Classificação, Clustering</li>
+            <li>Árvores de decisão, Random Forest, XGBoost</li>
+            <li>Pipeline e tuning de hiperparâmetros</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Visualização de Dados</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Power BI</li>
+            <li>Matplotlib, Seaborn, Plotly</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Engenharia de Software</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>APIs com Flask e FastAPI</li>
+            <li>Versionamento com Git/GitHub</li>
+            <li>Deploy com Streamlit</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-blue-400">
+          <h3 class="font-semibold text-blue-600 text-lg mb-2">Outras Ferramentas</h3>
+          <ul class="list-disc list-inside text-gray-600">
+            <li>Excel intermediário, Power Query, Softwares de programação</li>
+            <li>Inglês técnico</li>
+            <li>Storytelling com dados</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="mt-16">
+      <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-blue-400 pb-2 mb-10">
+        Projetos em Ciência de Dados
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Projeto COMPASS -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-blue-100">
+          <img src="/images/projeto_compass.jpg" alt="Projeto Compass" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Compass - Predição de compra e rotas para ClickBus</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Modelo de machine learning para prever quando o cliente irá realizar a próxima compra e próxima rota de passagem de usuários da ClickBus.
+            </p>
+            <p class="text-gray-500 text-sm mt-3 font-semibold">Ferramentas:</p>
+            <ul class="list-disc list-inside text-gray-600 text-sm">
+              <li>Python, Pandas, Numpy, Matplotlib</li>
+              <li>XGBoost, LightGBM, CatBoost, K-Means, RFM</li>
+            </ul>
+            <a href="https://github.com/gurgelt/challenge_compass_clickbus_fiap"
+               target="_blank"
+               class="inline-block mt-4 px-4 py-2 text-sm border border-blue-600 text-blue-600 rounded hover:bg-purple-600 hover:text-white transition">
+               🔗 Ver no GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto DASHBOARD DE PRODUÇÃO -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-blue-100">
+          <img src="/images/dashboard_producao.jpg" alt="Imagem de Dashboard de Produção" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Dashboard de Produção</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Dashboard dedicado para produção de materiais de uma empresa fictícia.
+            </p>
+            <p class="text-gray-500 text-sm mt-3 font-semibold">Ferramentas:</p>
+            <ul class="list-disc list-inside text-gray-600 text-sm">
+              <li>PowerBI e Excel</li>
+            </ul>
+            <a href="https://github.com/gurgelt/dashboard_producao"
+               target="_blank"
+               class="inline-block mt-4 px-4 py-2 text-sm border border-blue-600 text-blue-600 rounded hover:bg-purple-600 hover:text-white transition">
+               🔗 Ver no GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto DASHBOARD DE MARCAS DE CARRO -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-blue-100">
+          <img src="/images/dashboard_marcas_carros.jpg" alt="FomeZero Project" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-gray-800">Análise de Vendas de Automóveis</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Análise de Vendas de Automóveis, utilizando Excel e uma base de dados no PostgreSQL fictícia.
+            </p>
+            <p class="text-gray-500 text-sm mt-3 font-semibold">Ferramentas:</p>
+            <ul class="list-disc list-inside text-gray-600 text-sm">
+              <li>PostgreSQL e Excel</li>
+            </ul>
+            <a href="https://github.com/ProfLeandroRomualdo/Statistics-for-data-science.git"
+               target="_blank"
+               class="inline-block mt-4 px-4 py-2 text-sm border border-blue-600 text-blue-600 rounded hover:bg-purple-600 hover:text-white transition">
+               🔗 Ver no GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-16 text-gray-500 text-sm">
+      © 2025 - Desenvolvido por <span class="text-blue-600 font-medium">Paulo Gurgel Tudini</span> | Hospedado no GitHub Pages
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+</html>
